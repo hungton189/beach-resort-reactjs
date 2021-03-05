@@ -13,7 +13,7 @@ const NavBar = () => {
         <div className="navbar">
             <div className="nav-header">
                 <Link to="/" className="nav-logo">
-                    <img src={logo} />
+                    <img src={logo} alt="Beach - Resort"/>
                 </Link>
                 <ul className={isOpen?"nav-content show":"nav-content"}>
                     <li>

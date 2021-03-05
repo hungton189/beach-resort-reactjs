@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.btn-primary{
+    font-size:14px;
+    text-decoration: none;
+    font-weight: bold;
+    color:  rgb(24, 20, 20);
+    border: 3px solid #af9a7d;
+    padding: 4px 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.btn-primary:hover{
+    background-color: transparent;
+    color:#af9a7d;
+}

@@ -1,0 +1,19 @@
+.home{
+    min-height: calc(80vh - 30px);
+    background: url("../../images/defaultBcg.jpeg") center/cover no-repeat;
+}
+.rooms{
+    min-height: calc(80vh - 30px);
+    background: url("../../images/room-1.jpeg") center/cover no-repeat;
+}
+.error{
+    min-height: calc(100vh - 80px);
+    background: url("../../images/room-9.jpeg") center/cover no-repeat;
+}
+.home,
+.rooms,
+.error{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
