@@ -1,0 +1,24 @@
+.services{
+    background: #cfcfcf;
+}
+.services .underlined{
+    width: 12%;
+    height: 5px;
+    background: #af9a7d;
+    margin: 0 auto;
+}
+.services .title{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: rgb(34, 28, 28);
+}
+.services .services-content{
+    width:90vw;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(255px,1fr));
+    grid-row-gap: 2rem;
+    grid-column-gap: 50px ;
+}
